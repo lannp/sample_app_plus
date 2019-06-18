@@ -70,3 +70,7 @@ gem 'bcrypt', '3.1.12'
 gem 'pry', '~> 0.12.2'
 
 gem 'faker'
+
+gem 'will_paginate'
+
+gem 'bootstrap-will_paginate'
