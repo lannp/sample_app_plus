@@ -6,4 +6,5 @@
   <%= @greeting %>, find me in app/views/user_mailer/account_activation.html.erb
 </p>
 
-<%= link_to 'Activate', edit_account_activation_url( id: @user.id, activation_token: @user.activation_token ) %>
+<%= link_to "Activate", edit_account_activation_url(id: @user.activation_token,
+                                                    email: @user.email) %>
